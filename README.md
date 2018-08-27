@@ -19,4 +19,4 @@ Previo a la configuración deben de tener bien parametrizado el SDK en Android S
 
 - D) Luego configurar "SDK Tools", en mi caso tengo todas las opciones activas, pero las necesarias son las que se encuentran resaltadas, ver imagen.
 
-![androidstudio-settings-systemsettings-sdktools](https://user-images.githubusercontent.com/31372472/44684336-6f65b280-aa0e-11e8-85a0-e4c25689c40a.png)
+![androidstudio-settings-systemsettings-sdktools](https://user-images.githubusercontent.com/31372472/44684655-40037580-aa0f-11e8-9c9b-f38e8c5cba42.png)
