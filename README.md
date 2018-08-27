@@ -75,10 +75,34 @@ Y al final debe de quedar de la siguiente manera y luego debes de sincronizar, h
 
 - 8) Luego debes de ir a File --> Project Structure, dentro de este vamos a realizar 3 configuraciones.
 
+![androidstudio-file-projectstructure](https://user-images.githubusercontent.com/31372472/44690671-50bce700-aa21-11e8-87f2-cdbb9ebab346.png)
 
-En la Primera vamos a configurar la dirección del NDK, primero nos colocamos en "SDK Location" y vamos a la sección de "Android NDK Location", allí modificamos la ruta a la direccion de NDK que decargamos inicialmente, en mi caso la ruta es "C:\android-ndk-r16b".
+En la Primera vamos a configurar la dirección del NDK, primero nos colocamos en "SDK Location" y vamos a la sección de "Android NDK Location", allí modificamos la ruta a la direccion de NDK que decargamos inicialmente, en mi caso la ruta es "C:\android-ndk-r16b" y le damos "OK".
 
+![androidstudio-file-projectstructure-ndklocation](https://user-images.githubusercontent.com/31372472/44690682-51557d80-aa21-11e8-9937-8ebf662f7b7d.png)
 
-Luego en la Segunda configuración vamos a "Modules" y seleccionamos "App"; dentro de esta vamos a la pestaña de "Properties" y cambiamos el "Compile SDK Version" con la versión de Android que elegimos para nuestro proyecto, en mi caso es el "Andorid 3.0".
+![androidstudio-file-projectstructure-ndklocation 2](https://user-images.githubusercontent.com/31372472/44690681-51557d80-aa21-11e8-9a61-8ed4cc1bbfb7.png)
+
+Para validar esta modificacion abrimos "gradle.properties" y vemos que en el archivo ya se modifico.
+
+![androidstudio-file-projectstructure-app-dependencies 5](https://user-images.githubusercontent.com/31372472/44690678-51557d80-aa21-11e8-8efa-42028b70a209.png)
+
+Luego en la Segunda configuración abrimos nuevamente el "Project Structure" y vamos a "Modules" y seleccionamos "App"; dentro de esta vamos a la pestaña de "Properties" y cambiamos el "Compile SDK Version" con la versión de Android que elegimos para nuestro proyecto, en mi caso es el "Andorid 3.0".
+
+![androidstudio-file-projectstructure-app-properties 1](https://user-images.githubusercontent.com/31372472/44690679-51557d80-aa21-11e8-92aa-6c40147aa520.png)
+
+![androidstudio-file-projectstructure-app-properties 2](https://user-images.githubusercontent.com/31372472/44690680-51557d80-aa21-11e8-82e9-1c33ef160729.png)
 
 Finalmente como Tercera configuración vamos a la pestaña de "Dependencies", damos click en el "+" y luego seleccionamos "3 Module Dependency" y elegimos el OpenCV
+
+![androidstudio-file-projectstructure-app-dependencies 1](https://user-images.githubusercontent.com/31372472/44690673-50bce700-aa21-11e8-9649-f745f94d6de8.png)
+
+![androidstudio-file-projectstructure-app-dependencies 2](https://user-images.githubusercontent.com/31372472/44690674-50bce700-aa21-11e8-935a-823f8098c9e8.png)
+
+![androidstudio-file-projectstructure-app-dependencies 3](https://user-images.githubusercontent.com/31372472/44690675-50bce700-aa21-11e8-9ed6-651d51f242d1.png)
+
+![androidstudio-file-projectstructure-app-dependencies 4](https://user-images.githubusercontent.com/31372472/44690676-50bce700-aa21-11e8-8d70-b17ded76a739.png)
+
+A partir de allí saldra unos errores que con los siguientes pasos se solucionaran.
+
+- 9) 
