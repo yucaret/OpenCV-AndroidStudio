@@ -113,4 +113,10 @@ A partir de allí saldrán errores que se solucionaran con los siguientes pasos.
 
 ![androidstudio-new-folder-gnifolder 3](https://user-images.githubusercontent.com/31372472/44692208-7220d180-aa27-11e8-82a4-f37f26f4f49e.png)
 
-- 10) Ahora copiamos la estructura de archivos del OpenCV en la nueva carpeta "jniLibs", vamos a la ruta donde decargamos el OpenCV inicialmente, en mi caso la ruta es "C:\OpenCV-android-sdk\opencv-342-android-sdk\sdk\native\libs" y allí copiamos, luego vamos al Android Studio, a la nueva carpeta "jniLibs" y pegamos.
+- 10) Ahora copiamos la estructura de archivos del OpenCV en la nueva carpeta "jniLibs", vamos a la ruta donde decargamos el OpenCV inicialmente, en mi caso la ruta es "C:\OpenCV-android-sdk\opencv-342-android-sdk\sdk\native\libs" y allí copiamos todas las carpetas que estan dentro, luego vamos al Android Studio, a la nueva carpeta "jniLibs" y pegamos, nos saldra una pantallita a la que le daremos OK.
+
+![jnilibs 1](https://user-images.githubusercontent.com/31372472/44692969-15bfb100-aa2b-11e8-9816-3e338b7cd9e1.png)
+
+![jnilibs 2](https://user-images.githubusercontent.com/31372472/44692970-16584780-aa2b-11e8-98ce-c39a84b27f27.png)
+
+![jnilibs 3](https://user-images.githubusercontent.com/31372472/44692972-16584780-aa2b-11e8-9f76-aa63ecf7d303.png)
