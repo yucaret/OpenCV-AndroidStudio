@@ -45,7 +45,7 @@ Previo a la configuración deben de tener bien parametrizado el SDK en Android S
 
 ![androidstudio-file-new-importmodule](https://user-images.githubusercontent.com/31372472/44686966-7fcd5b80-aa15-11e8-8603-de91283a861e.png)
 
-- 6) A continuación nos mostrará la pantalla en donde debemos colocar la ruta de los modulos del OpenCV, en mi caso la ruta es la siguiente: "C:\OpenCV-android-sdk\opencv-342-android-sdk\sdk\java"; luego de indicar la ruta, el sistema automaticamente colocara el módulo con la versión de OpenCV que descargaste inicialmente y damos siguiente.
+- 6) A continuación nos mostrará la pantalla en donde debemos colocar la ruta de los modulos del OpenCV, en mi caso la ruta es la siguiente: "C:\OpenCV-android-sdk\opencv-342-android-sdk\sdk\java"; luego de indicar la ruta, el sistema automaticamente colocará el módulo con la versión de OpenCV que descargaste inicialmente y luego le damos siguiente.
 
 ![androidstudio-file-new-importmodule 1](https://user-images.githubusercontent.com/31372472/44686986-8d82e100-aa15-11e8-8107-4b3cbcc51ca1.png)
 
@@ -61,3 +61,10 @@ Como resultado el sistema te mostrara un resumen de los importado.
 
 ![androidstudio-file-new-importmodule 5](https://user-images.githubusercontent.com/31372472/44687002-9673b280-aa15-11e8-9389-f9fae27076af.png)
 
+- 7) Despues de importar los módulos vamos a configurar los "build.gradle" del "App" y del "OpenCV", primero coloca la vista en formato "Android", despliega "Gradle Scripts" y allí encontraras los dos archivos que vamos a modificar.
+
+
+
+Lo que se va a realizar es copiar los valoes que se encuentra en el "build.gradle (Module App)" en el "build.gradle (Module OpenCV)"
+
+Y al final debe de quedar de al siguiente manera
