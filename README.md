@@ -31,7 +31,7 @@ Previo a la configuración deben de tener bien parametrizado el SDK en Android S
 
 ![androidstudio-createandroidproject](https://user-images.githubusercontent.com/31372472/44685833-0bdd8400-aa12-11e8-8b19-f02ad5da7f86.png)
 
-- 3) Seleccionar el tipo de Dispositivo; en mi caso para mis proyectos utilizo al versión 4.0 de Android, esto quiere decir que todos los dispositivos con esa versión o con con versiones actuales van a poder utilizar mi App.
+- 3) Seleccionar el tipo de Dispositivo; en mi caso, para mis proyectos, utilizo la versión 4.0 de Android, esto quiere decir que todos los dispositivos con esa versión o con con versiones actuales van a poder utilizar mi App.
 
 ![androidstudio-targetandroiddevices](https://user-images.githubusercontent.com/31372472/44685957-56f79700-aa12-11e8-82ed-91772b17cfaf.png)
 
@@ -41,11 +41,11 @@ Previo a la configuración deben de tener bien parametrizado el SDK en Android S
 
 ![androidstudio-createanewemptyactivity](https://user-images.githubusercontent.com/31372472/44686017-84dcdb80-aa12-11e8-9998-0491aea5b324.png)
 
-- 5) Ingresamos a "File --> New  --> Import Module", en este punto vamos a configurar los Modulos del "OpenCV".
+- 5) Luego de que el proyecto es creado ingresamos a "File --> New  --> Import Module", en este punto vamos a importar los módulos del "OpenCV" para java.
 
 ![androidstudio-file-new-importmodule](https://user-images.githubusercontent.com/31372472/44686966-7fcd5b80-aa15-11e8-8603-de91283a861e.png)
 
-- 6) A continuación nos mostrará la pantalla en donde debemos colocar la ruta de los modulos del OpenCV, en mi caso la ruta es la siguiente: "C:\OpenCV-android-sdk\opencv-342-android-sdk\sdk\java", luego de colocarlo el sistema automaticamente colocara el Modulo con la versión de OpenCV que descargaste, luego le damos finalizar y Android Studio nos mostrará un resumen de lo importado.
+- 6) A continuación nos mostrará la pantalla en donde debemos colocar la ruta de los modulos del OpenCV, en mi caso la ruta es la siguiente: "C:\OpenCV-android-sdk\opencv-342-android-sdk\sdk\java"; luego de indicar la ruta, el sistema automaticamente colocara el módulo con la versión de OpenCV que descargaste inicialmente y damos siguiente.
 
 ![androidstudio-file-new-importmodule 1](https://user-images.githubusercontent.com/31372472/44686986-8d82e100-aa15-11e8-8107-4b3cbcc51ca1.png)
 
@@ -53,7 +53,11 @@ Previo a la configuración deben de tener bien parametrizado el SDK en Android S
 
 ![androidstudio-file-new-importmodule 3](https://user-images.githubusercontent.com/31372472/44687000-95db1c00-aa15-11e8-90d9-60cef5378e55.png)
 
+Aquí quitamos todos los check de reemplazo de jars y damos finalizar.
+
 ![androidstudio-file-new-importmodule 4](https://user-images.githubusercontent.com/31372472/44687001-95db1c00-aa15-11e8-9de1-7f08462af57c.png)
+
+Como resultado el sistema te mostrara un resumen de los importado.
 
 ![androidstudio-file-new-importmodule 5](https://user-images.githubusercontent.com/31372472/44687002-9673b280-aa15-11e8-9389-f9fae27076af.png)
 
