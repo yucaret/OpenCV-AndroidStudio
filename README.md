@@ -15,3 +15,5 @@ Previo a la configuración deben de tener bien parametrizado el SDK en Android S
 - b) Ir a la sección de "System Settings".
 - c) En la Pestaña de "SDK Platforms" deben de tener instaladas las versiones de Android con la que desean desarrollar su App, en mi caso tengo todas las versiones superiores a la 3.0 (Honeycomb), ver imagen.
 
+![androidstudio-settings-systemsettings-sdkplatforms](https://user-images.githubusercontent.com/31372472/44683648-899e9100-aa0c-11e8-8405-95160e9464b9.png)
+
