@@ -69,7 +69,16 @@ Lo que vamos hacer es copiar los valores que se encuentra en el "build.gradle (M
 
 ![androidstudio-vistasobuildgradle 1](https://user-images.githubusercontent.com/31372472/44688668-90cc9b80-aa1a-11e8-8a5d-490d4e4f616b.png)
 
-Y al final debe de quedar de la siguiente manera:
+Y al final debe de quedar de la siguiente manera y luego debes de sincronizar, hasta este momento no debe de exitir errores:
 
 ![androidstudio-vistasobuildgradle 2](https://user-images.githubusercontent.com/31372472/44688669-90cc9b80-aa1a-11e8-8c86-b2242fb7fef2.png)
 
+- 8) Luego debes de ir a File --> Project Structure, dentro de este vamos a realizar 3 configuraciones.
+
+
+En la Primera vamos a configurar la dirección del NDK, primero nos colocamos en "SDK Location" y vamos a la sección de "Android NDK Location", allí modificamos la ruta a la direccion de NDK que decargamos inicialmente, en mi caso la ruta es "C:\android-ndk-r16b".
+
+
+Luego en la Segunda configuración vamos a "Modules" y seleccionamos "App"; dentro de esta vamos a la pestaña de "Properties" y cambiamos el "Compile SDK Version" con la versión de Android que elegimos para nuestro proyecto, en mi caso es el "Andorid 3.0".
+
+Finalmente como Tercera configuración vamos a la pestaña de "Dependencies", damos click en el "+" y luego seleccionamos "3 Module Dependency" y elegimos el OpenCV
