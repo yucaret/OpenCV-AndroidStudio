@@ -107,7 +107,7 @@ A partir de allí saldrán errores que se solucionaran con los siguientes pasos.
 
 - 9) Ahora vamos a crear la nueva carpeta de librerias de OpenCV, para ello seleccionamos la vista de proyectos, luego nos dirigimos a la ruta de archivos "..../app/src/main", luego damos click derecho en "main" y vamos a "New --> Folder --> JNI Folders", alli le damos click al checkbox "Change Folder Location" y luego en "New Folder Location" colocamos lo siguiente "src/main/jniLibs/", es allí donde creamos la nueva carpeta de librerias con nombre "jniLibs" y le damos "Finish".
 
-![androidstudio-new-folder-gnifolder 1](https://user-images.githubusercontent.com/31372472/44692206-7220d180-aa27-11e8-9525-6b5522240677.png)
+![androidstudio-new-folder-gnifolder 1](https://user-images.githubusercontent.com/31372472/44692320-fb380880-aa27-11e8-9a49-34f72297b24d.png)
 
 ![androidstudio-new-folder-gnifolder 2](https://user-images.githubusercontent.com/31372472/44692207-7220d180-aa27-11e8-8abf-c633a7428c94.png)
 
