@@ -8,7 +8,7 @@ Configuración de OpenCV 3.4.2 (64 bits) en Android Studio 3.1.4 (64 Bits) para 
 - Descargar e Instalar Android Studio para Windows de 64 bits: https://developer.android.com/studio/
 - Descargar NDK para windows de 64 bits: https://developer.android.com/ndk/downloads/?hl=es-419 , descomprimirlo y colocarlo en la raiz de "C:" (para mayor facilidad).
 
-## Nota:
+## Previo:
 
 Previo a la configuración deben de tener bien parametrizado el SDK en Android Studio, para ello deben de realizar dentro de Android Studio lo siguiente:
 - a) Ingresar a File--> Setting.
@@ -17,6 +17,19 @@ Previo a la configuración deben de tener bien parametrizado el SDK en Android S
 
 ![androidstudio-settings-systemsettings-sdkplatforms](https://user-images.githubusercontent.com/31372472/44683648-899e9100-aa0c-11e8-8405-95160e9464b9.png)
 
-- D) Luego configurar "SDK Tools", en mi caso tengo todas las opciones activas, pero las necesarias son las que se encuentran resaltadas, ver imagen.
+- d) Luego configurar "SDK Tools", en mi caso tengo todas las opciones activas, pero las necesarias son las que se encuentran resaltadas, ver imagen.
 
 ![androidstudio-settings-systemsettings-sdktools](https://user-images.githubusercontent.com/31372472/44684655-40037580-aa0f-11e8-9c9b-f38e8c5cba42.png)
+
+## Pasos:
+
+- 1) Crear el Proyecto.
+
+
+- 2) Nombrarlo, en ese caso se llama "OpenCVConfiguration".
+
+
+- 3) Seleccionar el tipo de Dispositivo; en mi caso para mis proyectos utilizo al versión 4.0 de Android, esto quiere decir que todos los dispositivos con esa versión o con con versiones actuales van a poder utilizar mi App.
+
+
+- 4) Creo la Activity (que viene a ser la pantalla principal), en este caso la he colocado en blanco y luego la dejo con los valores por defecto.
