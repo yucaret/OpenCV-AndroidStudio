@@ -69,7 +69,7 @@ Lo que vamos hacer es copiar los valores que se encuentra en el "build.gradle (M
 
 ![androidstudio-vistasobuildgradle 1](https://user-images.githubusercontent.com/31372472/44688668-90cc9b80-aa1a-11e8-8a5d-490d4e4f616b.png)
 
-Y al final debe de quedar de la siguiente manera y luego debes de sincronizar, hasta este momento no debe de exitir errores:
+Y al final debe de quedar de la siguiente manera y luego debes de sincronizar, hasta este momento no debe de existir errores:
 
 ![androidstudio-vistasobuildgradle 2](https://user-images.githubusercontent.com/31372472/44688669-90cc9b80-aa1a-11e8-8c86-b2242fb7fef2.png)
 
@@ -83,7 +83,7 @@ En la Primera vamos a configurar la dirección del NDK, primero nos colocamos en
 
 ![androidstudio-file-projectstructure-ndklocation 2](https://user-images.githubusercontent.com/31372472/44690681-51557d80-aa21-11e8-9a61-8ed4cc1bbfb7.png)
 
-Para validar esta modificacion abrimos "gradle.properties" y vemos que en el archivo ya se modifico.
+Para validar esta modificacion abrimos "gradle.properties" y vemos que en el archivo estan las modificaciones.
 
 ![androidstudio-file-projectstructure-app-dependencies 5](https://user-images.githubusercontent.com/31372472/44690678-51557d80-aa21-11e8-8efa-42028b70a209.png)
 
@@ -103,6 +103,12 @@ Finalmente como Tercera configuración vamos a la pestaña de "Dependencies", da
 
 ![androidstudio-file-projectstructure-app-dependencies 4](https://user-images.githubusercontent.com/31372472/44690676-50bce700-aa21-11e8-8d70-b17ded76a739.png)
 
-A partir de allí saldra unos errores que con los siguientes pasos se solucionaran.
+A partir de allí saldrán errores que se solucionaran con los siguientes pasos.
 
-- 9) 
+- 9) Ahora vamos a crear la nueva carpeta de librerias de OpenCV, para ello seleccionamos la vista de proyectos, luego nos dirigimos a la ruta de archivos "..../app/src/main", luego damos click derecho en "main" y vamos a "New --> Folder --> JNI Folders", alli le damos click al checkbox "Change Folder Location" y luego en "New Folder Location" colocamos lo siguiente "src/main/jniLibs/", es allí donde creamos la nueva carpeta de librerias con nombre "jniLibs" y le damos "Finish".
+
+![androidstudio-new-folder-gnifolder 1](https://user-images.githubusercontent.com/31372472/44692206-7220d180-aa27-11e8-9525-6b5522240677.png)
+
+![androidstudio-new-folder-gnifolder 2](https://user-images.githubusercontent.com/31372472/44692207-7220d180-aa27-11e8-8abf-c633a7428c94.png)
+
+![androidstudio-new-folder-gnifolder 3](https://user-images.githubusercontent.com/31372472/44692208-7220d180-aa27-11e8-82a4-f37f26f4f49e.png)
