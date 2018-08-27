@@ -61,10 +61,15 @@ Como resultado el sistema te mostrara un resumen de los importado.
 
 ![androidstudio-file-new-importmodule 5](https://user-images.githubusercontent.com/31372472/44687002-9673b280-aa15-11e8-9389-f9fae27076af.png)
 
-- 7) Despues de importar los módulos vamos a configurar los "build.gradle" del "App" y del "OpenCV", primero coloca la vista en formato "Android", despliega "Gradle Scripts" y allí encontraras los dos archivos que vamos a modificar.
+- 7) Después de importar los módulos vamos a configurar los "build.gradle" del "App" y del "OpenCV", primero colocamos la vista en formato "Android", desplegamos "Gradle Scripts" y allí encontraremos los dos archivos que vamos a modificar.
 
+![androidstudio-vistasobuildgradle](https://user-images.githubusercontent.com/31372472/44688651-89a58d80-aa1a-11e8-89ba-8b558bb62ef4.png)
 
+Lo que vamos hacer es copiar los valores que se encuentra en el "build.gradle (Module App)" en el "build.gradle (Module OpenCV)"
 
-Lo que se va a realizar es copiar los valoes que se encuentra en el "build.gradle (Module App)" en el "build.gradle (Module OpenCV)"
+![androidstudio-vistasobuildgradle 1](https://user-images.githubusercontent.com/31372472/44688668-90cc9b80-aa1a-11e8-8a5d-490d4e4f616b.png)
 
-Y al final debe de quedar de al siguiente manera
+Y al final debe de quedar de la siguiente manera:
+
+![androidstudio-vistasobuildgradle 2](https://user-images.githubusercontent.com/31372472/44688669-90cc9b80-aa1a-11e8-8c86-b2242fb7fef2.png)
+
