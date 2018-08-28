@@ -133,4 +133,4 @@ A partir de allí saldrán errores que se solucionaran con los siguientes pasos.
 
 ![gradle properties 2](https://user-images.githubusercontent.com/31372472/44693465-d0e94980-aa2d-11e8-9c8f-34bbb79654cb.png)
 
-- 13) Compila la aplicación y comienza a disfrutar de las bondades del Open CV :)
+- 13) Sincronizamos, Compilamos la aplicación y comienza a disfrutar de las bondades del Open CV :)
