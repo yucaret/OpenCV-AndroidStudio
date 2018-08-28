@@ -127,6 +127,8 @@ A partir de allí saldrán errores que se solucionaran con los siguientes pasos.
 
 - 12) Luego de esto, vamos a agregar una línea al archivo gradle.properties, para ello, primero debemos estar en la vista de "Android" y luego abrir el archivo y agregar la línea "android.useDeprecatedNDK=true", como se ve en la imagen
 
+![gradle properties 1](https://user-images.githubusercontent.com/31372472/44693464-d0e94980-aa2d-11e8-9c2a-59d7bef39312.png)
 
+![gradle properties 2](https://user-images.githubusercontent.com/31372472/44693465-d0e94980-aa2d-11e8-9c8f-34bbb79654cb.png)
 
 - 13) Compila la aplicación y comienza a disfrutar de las bondades del Open CV :)
