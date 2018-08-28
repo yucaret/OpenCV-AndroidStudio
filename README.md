@@ -121,9 +121,11 @@ A partir de allí saldrán errores que se solucionaran con los siguientes pasos.
 
 ![jnilibs 3](https://user-images.githubusercontent.com/31372472/44692972-16584780-aa2b-11e8-9f76-aa63ecf7d303.png)
 
-- 11) Luego, utilizando la vista de "Android", abrimos el archivo "build.gradle(Module: app)" y comentamos la línea que se ve en la imagen.
+- 11) Luego, utilizando la vista de "Android", abrimos el archivo "build.gradle(Module: app)", verificamos que la variable "compileSdkVersion" siga con el valor original que teniamos, en mi caso "28", y si no es, lo modificamos, luego comentamos la línea que se ve en la imagen.
 
-![buildgradlemoduleappcomentario](https://user-images.githubusercontent.com/31372472/44693417-5e786980-aa2d-11e8-87d4-0152b5bf4b38.png)
+![buildgradlemoduleappcomentario 1](https://user-images.githubusercontent.com/31372472/44693695-443f8b00-aa2f-11e8-9f17-c9ec153a5d7a.png)
+
+![buildgradlemoduleappcomentario 2](https://user-images.githubusercontent.com/31372472/44693696-443f8b00-aa2f-11e8-9b43-9c47e6c95705.png)
 
 - 12) Luego de esto, vamos a agregar una línea al archivo gradle.properties, para ello, primero debemos estar en la vista de "Android" y luego abrir el archivo y agregar la línea "android.useDeprecatedNDK=true", como se ve en la imagen
 
