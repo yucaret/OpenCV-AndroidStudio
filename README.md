@@ -135,5 +135,8 @@ A partir de allí saldrán errores que se solucionaran con los siguientes pasos.
 
 - 13) Sincronizamos, y ya no tendriamos errores, luego, en el MainActivity.java, modificamos las líneas de código para probar la aplicación.
 
+![main activity 1](https://user-images.githubusercontent.com/31372472/44694092-3db21300-aa31-11e8-944f-d3c0d4c452e0.png)
 
-- 14) Aplicación compilada, disfruta del Open CV
+- 14) Aplicación compilada y listo, disfruta del Open CV
+
+![main activity 2](https://user-images.githubusercontent.com/31372472/44694151-810c8180-aa31-11e8-87da-bd57b7ac6163.png)
