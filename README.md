@@ -4,9 +4,9 @@ Configuración de OpenCV 3.4.2 (64 bits) en Android Studio 3.1.4 (64 Bits) para 
 
 ## Requerimientos:
 
-- Descargar OpenCV para windows de 64 bits (versiones 3.X.X) para Android (Android Pack): https://opencv.org/releases.html , descomprimirlo y colocarlo en la raiz de "C:" (para mayor facilidad).
+- Descargar OpenCV para windows de 64 bits (versiones 3.X.X) para Android (Android Pack): https://opencv.org/releases.html , descomprimirlo y colocarlo en la raíz de "C:" (para mayor facilidad).
 - Descargar e Instalar Android Studio para Windows de 64 bits: https://developer.android.com/studio/
-- Descargar NDK para windows de 64 bits: https://developer.android.com/ndk/downloads/?hl=es-419 , descomprimirlo y colocarlo en la raiz de "C:" (para mayor facilidad).
+- Descargar NDK para windows de 64 bits: https://developer.android.com/ndk/downloads/?hl=es-419 , descomprimirlo y colocarlo en la raíz de "C:" (para mayor facilidad).
 
 ## Previo:
 
@@ -31,7 +31,7 @@ Previo a la configuración deben de tener bien parametrizado el SDK en Android S
 
 ![androidstudio-createandroidproject](https://user-images.githubusercontent.com/31372472/44685833-0bdd8400-aa12-11e8-8b19-f02ad5da7f86.png)
 
-- 3) Seleccionar el tipo de Dispositivo; en mi caso, para mis proyectos, utilizo la versión 4.0 de Android, esto quiere decir que todos los dispositivos con esa versión o con con versiones actuales van a poder utilizar mi App.
+- 3) Seleccionar el tipo de Dispositivo; en mi caso, para mis proyectos, utilizo la versión 4.0 de Android, esto quiere decir que todos los dispositivos con esa versión o con versiones actuales van a poder utilizar mi App.
 
 ![androidstudio-targetandroiddevices](https://user-images.githubusercontent.com/31372472/44685957-56f79700-aa12-11e8-82ed-91772b17cfaf.png)
 
@@ -45,7 +45,7 @@ Previo a la configuración deben de tener bien parametrizado el SDK en Android S
 
 ![androidstudio-file-new-importmodule](https://user-images.githubusercontent.com/31372472/44686966-7fcd5b80-aa15-11e8-8603-de91283a861e.png)
 
-- 6) A continuación nos mostrará la pantalla en donde debemos colocar la ruta de los modulos del OpenCV, en mi caso la ruta es la siguiente: "C:\OpenCV-android-sdk\opencv-342-android-sdk\sdk\java"; luego de indicar la ruta, el sistema automaticamente colocará el módulo con la versión de OpenCV que descargaste inicialmente y luego le damos siguiente.
+- 6) A continuación nos mostrará la pantalla en donde debemos colocar la ruta de los módulos del OpenCV, en mi caso la ruta es la siguiente: "C:\OpenCV-android-sdk\opencv-342-android-sdk\sdk\java"; luego de indicar la ruta, el sistema automáticamente colocará el módulo con la versión de OpenCV que descargaste inicialmente y luego le damos siguiente.
 
 ![androidstudio-file-new-importmodule 1](https://user-images.githubusercontent.com/31372472/44686986-8d82e100-aa15-11e8-8107-4b3cbcc51ca1.png)
 
@@ -105,7 +105,7 @@ Finalmente como Tercera configuración vamos a la pestaña de "Dependencies", da
 
 A partir de allí saldrán errores que se solucionaran con los siguientes pasos.
 
-- 9) Ahora vamos a crear la nueva carpeta de librerias de OpenCV, para ello seleccionamos la vista de proyectos, luego nos dirigimos a la ruta de archivos "..../app/src/main", luego damos click derecho en "main" y vamos a "New --> Folder --> JNI Folders", alli le damos click al checkbox "Change Folder Location" y luego en "New Folder Location" colocamos lo siguiente "src/main/jniLibs/", es allí donde creamos la nueva carpeta de librerias con nombre "jniLibs" y le damos "Finish".
+- 9) Ahora vamos a crear la nueva carpeta de librerías de OpenCV, para ello seleccionamos la vista de proyectos, luego nos dirigimos a la ruta de archivos "..../app/src/main", luego damos click derecho en "main" y vamos a "New --> Folder --> JNI Folders", allí le damos click al checkbox "Change Folder Location" y luego en "New Folder Location" colocamos lo siguiente "src/main/jniLibs/", es allí donde creamos la nueva carpeta de librerías con nombre "jniLibs" y le damos "Finish".
 
 ![androidstudio-new-folder-gnifolder 1](https://user-images.githubusercontent.com/31372472/44692320-fb380880-aa27-11e8-9a49-34f72297b24d.png)
 
@@ -113,7 +113,7 @@ A partir de allí saldrán errores que se solucionaran con los siguientes pasos.
 
 ![androidstudio-new-folder-gnifolder 3](https://user-images.githubusercontent.com/31372472/44692208-7220d180-aa27-11e8-82a4-f37f26f4f49e.png)
 
-- 10) Ahora copiamos la estructura de archivos del OpenCV en la nueva carpeta "jniLibs", vamos a la ruta donde decargamos el OpenCV inicialmente, en mi caso la ruta es "C:\OpenCV-android-sdk\opencv-342-android-sdk\sdk\native\libs" y allí copiamos todas las carpetas que estan dentro, luego vamos al Android Studio, a la nueva carpeta "jniLibs" y pegamos, nos saldra una pantallita a la que le daremos OK.
+- 10) Ahora copiamos la estructura de archivos del OpenCV en la nueva carpeta "jniLibs", vamos a la ruta donde descargamos el OpenCV inicialmente, en mi caso la ruta es "C:\OpenCV-android-sdk\opencv-342-android-sdk\sdk\native\libs" y allí copiamos todas las carpetas que están dentro, luego vamos al Android Studio, a la nueva carpeta "jniLibs" y pegamos, nos saldrá una pantallita a la que le daremos OK.
 
 ![jnilibs 1](https://user-images.githubusercontent.com/31372472/44692969-15bfb100-aa2b-11e8-9816-3e338b7cd9e1.png)
 
@@ -121,7 +121,7 @@ A partir de allí saldrán errores que se solucionaran con los siguientes pasos.
 
 ![jnilibs 3](https://user-images.githubusercontent.com/31372472/44692972-16584780-aa2b-11e8-9f76-aa63ecf7d303.png)
 
-- 11) Luego, utilizando la vista de "Android", abrimos el archivo "build.gradle(Module: app)", verificamos que la variable "compileSdkVersion" siga con el valor original que teniamos, en mi caso "28", y si no es, lo modificamos, luego comentamos la línea que se ve en la imagen.
+- 11) Luego, utilizando la vista de "Android", abrimos el archivo "build.gradle(Module: app)", verificamos que la variable "compileSdkVersion" siga con el valor original que teníamos, en mi caso "28", y si no es, lo modificamos, luego comentamos la línea que se ve en la imagen.
 
 ![buildgradlemoduleappcomentario 1](https://user-images.githubusercontent.com/31372472/44693695-443f8b00-aa2f-11e8-9f17-c9ec153a5d7a.png)
 
@@ -133,7 +133,7 @@ A partir de allí saldrán errores que se solucionaran con los siguientes pasos.
 
 ![gradle properties 2](https://user-images.githubusercontent.com/31372472/44693465-d0e94980-aa2d-11e8-9c8f-34bbb79654cb.png)
 
-- 13) Sincronizamos, y ya no tendriamos errores, luego, en el MainActivity.java, modificamos las líneas de código para probar la aplicación.
+- 13) Sincronizamos, y ya no tendríamos errores, luego, en el MainActivity.java, modificamos las líneas de código para probar la aplicación.
 
 ![main activity 1](https://user-images.githubusercontent.com/31372472/44694092-3db21300-aa31-11e8-944f-d3c0d4c452e0.png)
 
