@@ -83,7 +83,7 @@ En la Primera vamos a configurar la dirección del NDK, primero nos colocamos en
 
 ![androidstudio-file-projectstructure-ndklocation 2](https://user-images.githubusercontent.com/31372472/44690681-51557d80-aa21-11e8-9a61-8ed4cc1bbfb7.png)
 
-Para validar esta modificacion abrimos "gradle.properties" y vemos que en el archivo estan las modificaciones.
+Para validar esta modificacion abrimos "local.properties" y vemos que en el archivo estan las modificaciones.
 
 ![androidstudio-file-projectstructure-app-dependencies 5](https://user-images.githubusercontent.com/31372472/44690678-51557d80-aa21-11e8-8efa-42028b70a209.png)
 
